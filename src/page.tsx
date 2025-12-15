@@ -14,8 +14,7 @@ export default function LandingPage() {
 
   const handleStartChat = (e: React.FormEvent) => {
     e.preventDefault();
-    // In a real app, interests would be used for matching.
-    // We can pass them as query params if needed, but for this simulation we just navigate.
+    
     router.push("/chat");
   };
 
